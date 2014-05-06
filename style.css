@@ -1,0 +1,135 @@
+/* What Time is it There? */
+
+body {
+	background:#f6f4eb;
+	text-align:center;
+	color:#363636;
+	font-family:helvetica, arial black, arial, serif;
+}
+a, a:visited {
+	font-weight:bold;
+	color:#363636;
+	border-bottom:dashed 1px #363636;
+}
+a:visited {
+	border-bottom:dashed 1px #A7A7A7;
+}
+a:hover {
+	border-bottom:solid 1px #363636;
+}
+.wrap {
+	width:960px;
+	margin:0 auto;
+	text-align:left;
+}
+#header {
+	border-bottom:solid 4px #363636;
+	padding:25px 0 10px 0;
+	overflow:auto;
+}
+h1 {
+	font-size:46px;
+	line-height:100%;
+}	
+h2 {
+	font-size:14px;
+	font-weight:lighter;
+}
+
+#title {
+	width:500px;
+	float:left;
+}
+
+#form {
+	float:right;
+}
+
+#form label {
+	font-size:18px;
+	font-weight:bold;
+}
+
+#form input {
+	border:dashed 2px #DFDED8;
+	border-bottom:solid 3px #000;
+	background:#f6f4eb;
+	padding:2px;
+	font-size:14px;
+}
+
+#form input:focus {
+	background:#FFF;
+}
+
+#form p {
+	font-style:italic;
+	margin-top:10px;
+	color:#9F9D9A;
+	letter-spacing:.5px;
+}
+
+#time_zones {
+	background:url(usa.jpg) no-repeat;
+	height:423px;
+	position:relative;
+	margin:40px auto;
+	color:#FFF;
+}
+#time_zones ul li span {
+	font-size:16px;
+	line-height:100%;
+	font-weight:bold;
+}
+#time_zones ul li span strong{
+	font-size:32px;
+	line-height:100%;
+	font-weight:bold;
+}
+#time_zones ul li {
+	position:absolute;
+	width:98px;
+}
+#time_zones ul li#eastern {
+	position:absolute;
+	margin-left:775px;
+	top:170px;
+}
+#time_zones ul li#central {
+	position:absolute;
+	margin-left:600px;
+	top:245px;
+}
+#time_zones ul li#mountain {
+	position:absolute;
+	margin-left:446px;
+	top:95px;
+}
+#time_zones ul li#pacific {
+	position:absolute;
+	margin-left:300px;
+	top:160px;
+}
+#time_zones ul li#alaska {
+	position:absolute;
+	margin-left:55px;
+	top:95px;
+}
+#time_zones ul li#hawaii {
+	position:absolute;
+	margin-left:100px;
+	top:322px;
+	color:#A108D7;
+}
+#footer {
+	border-top:solid 4px #363636;
+	padding-top:10px;
+
+}
+
+#footer ul li {
+	float:left;
+	width:280px;
+	margin-right:40px;
+	padding-bottom:10px;
+}

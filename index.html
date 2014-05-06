@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="This is a visual reference card for US Time Zones.">
+	<meta name="keywords" content="time, time zones, us time zones, eastern time, pacific time, mountain time, central time, alaska time, hawaii time, reference, time difference">
+
+	<title>What Time is it There?</title>
+	<link rel="stylesheet" href="reset.css" type="text/css" media="screen" charset="utf-8"/>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8"/>
+	<script src="clock.js" type="text/javascript"></script>	
+
+</head>
+
+<body>
+	<div id="header"><div class="wrap">
+		<div id="title">
+			<h1 class="wrap">What Time is it There?</h1>
+			<h2 class="wrap">A Quick, Visual Reference for US Time Zones</h2>
+		</div><!-- /title -->
+		<div id="form">
+			<label for="when">Show the time</label> <input type="text" id="when" value="now" onfocus="fWhen(this);" onblur="bWhen(this);"/>
+			<p>Type things like "in 5 hours" or "at 5:30am eastern".</p>
+		</div><!-- /form -->
+		</div>
+	</div><!-- /header -->
+	<div id="time_zones" class="wrap">
+		
+		<ul>
+			<li id="eastern"><span id="NewYork"></span> Eastern Time</li>
+			<li id="central"><span id="Chicago"></span> Central Time</li>
+			<li id="mountain"><span id="Denver"></span> Mountain Time</li>
+			<li id="pacific"><span id="LosAngeles"></span> Pacific Time</li>
+
+			<li id="alaska"><span id="Anchorage"></span> Alaska Time</li>
+			<li id="hawaii"><span id="Honolulu"></span> Hawaii Time</li>
+		</ul>
+	</div><!-- /time_zones -->
+	
+	<div id="footer">
+		<ul class="wrap">
+			<li>Arizona is sometimes different because of Daylight Savings Time</li>
+
+			<li>There is no guarantee that these times are accurate</li>
+			<li>This is a visual reference card designed by <a href="http://benlew.com" title="benlew.com">Ben Lew</a> and made awesome by <a href="http://jamessocol.com" title="jamessocol.com">James Socol</a>.</li>
+		</ul><!-- / -->
+	</div><!-- /footer -->
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-10021796-1");
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
+</body>
+</html>
